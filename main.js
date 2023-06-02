@@ -9,7 +9,8 @@ const createWindow = () => {
     height: 600,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
-    }
+    },
+    // icon: '/path/to/icon.png', 如果打包linux平台应用时需打开该配置应用icon代码
   })
 
   win.loadFile('index.html');
