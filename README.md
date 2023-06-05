@@ -16,5 +16,3 @@ npm run make
 npm run publish
 ```
 - 通过自动化工作流来发布你的应用比如 GitHub Actions, 通过它可以在各种云系统内包括 Ubuntu, macOS 和 Windows 上运行任务
-
-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
